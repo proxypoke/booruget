@@ -1,0 +1,35 @@
+BOORUGET(1)
+===========
+slowpoke <mail+git@slowpoke.io>
+v0.1 2013-02-09
+:encoding: utf-8
+:doctype: manpage
+:man source: Tinfoil Wizards Inc.
+:man manual: Weeaboo Toolkit Manual
+
+NAME
+----
+booruget - download images from safebooru and compatible *boorus.
+
+SYNOPSIS
+-------
+booruget [-h] [-o OUTPUT] [-v] URL
+
+
+OPTIONS
+-------
+-h/--help::
+Show a helpful description of the options.
+-o/--output directory::
+Write all images to this directory instead of the current one.
+-v/--verbose::
+Report what is going on.
+
+DESCRIPTION
+-----------
+Download all images from starting from the given URL, which must be a search
+result page from a booru-type image-board. Please don't overdo it.
+
+EXAMPLES
+--------
+booruget -o ~/images "http://safebooru.org/index.php?page=post&s=list&tags=xenosaga"

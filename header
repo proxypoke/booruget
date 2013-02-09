@@ -1,0 +1,11 @@
+# booruget - download images from safebooru (or other *boorus)
+#
+# Author: slowpoke <mail+git@slowpoke.io>
+#
+# This program is free software under the non-terms
+# of the Anti-License. Do whatever the fuck you want.
+#
+# Github: https://www.github.com/proxypoke/booruget
+#
+# Format options for vim. Please adhere to them.
+# vim: set et ts=4 sw=4 tw=80:
